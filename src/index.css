@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@layer base{
+    body{
+        @apply font-[Raleway];
+        font-family: 'Roboto', sans-serif;
+    }
+    li{
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+/* Work Background Styling */
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px; 
+}
+
+.content-div:hover{ 
+    background-image: 
+    linear-gradient(to left, rgba(187, 55, 114, 0.93),
+    rgba(41, 28, 227, 0.512)
+    ) !important;
+}   
