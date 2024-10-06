@@ -141,7 +141,7 @@ export const NavBar = () => {
                     <li className="m-0.5 w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] rounded-r-3xl duration-300 bg-[#d2ac12] border">
                         <a
                             className="text-lg font-sans font-bold flex justify-between items-center w-full text-gray-300"
-                            href="https://cv.saber-aissaoui.com/"
+                            href="https://saber0769.github.io/SaberCV/"
                             target="_blank"
                             rel="noreferrer"
                         >
