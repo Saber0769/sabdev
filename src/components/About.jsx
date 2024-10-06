@@ -43,7 +43,7 @@ const about = () => {
                 <div className="md:w-1/2 flex flex-col justify-right items-center ">
                   <img src={Cv} alt="Saber_Cv" className="w-2/3 " />
 
-                    <button onClick={() => window.open("https://cv.saber-aissaoui.com/")} type="submit" className="rounded-sm border-2 border-white py-3 px-3 my-4 text-white hover:bg-[#112747] text-xl font-bold">
+                    <button onClick={() => window.open("https://saber0769.github.io/SaberCV/")} type="submit" className="rounded-sm border-2 border-white py-3 px-3 my-4 text-white hover:bg-[#112747] text-xl font-bold">
                       Résumé PDF
                     </button>
  
